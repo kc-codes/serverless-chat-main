@@ -37,3 +37,11 @@ serverless deploy
 ## Licence
 
 MIT.
+
+## Steps
+
+1. Download Aws cli, Node.js, VSCode, Serverless framework, Websocat
+2. Check if aws cli is installed correctly ```aws --version```
+3. Configure Aws cli with the command ```aws configure``` you can refer to this video: [Youtube](https://youtu.be/CjKhQoYeR4Q?si=Z271kwREnTyMNWU_)
+4. Run command ```serverless deploy```
+5. Now the cli should give you the endpoint for connection to the websocket example ```wss://xyz.amazon.aws.com/dev``` Note this endpoint we will require this to connect the frontend with backend.
